@@ -10,6 +10,6 @@ public class LoginController {
     @FXML
     protected void texto()
     {
-        title.setText("También acá pues");
+        title.setText("Ejemplito");
     }
 }
