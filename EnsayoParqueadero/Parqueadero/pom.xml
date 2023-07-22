@@ -80,7 +80,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.edu.uniquindio.parqueadero/com.edu.uniquindio.parqueadero.AppMain
+                            <mainClass>com.edu.uniquindio.parqueadero/com.edu.uniquindio.Main.AppMain
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

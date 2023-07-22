@@ -6,6 +6,8 @@ module com.edu.uniquindio.parqueadero {
     requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.edu.uniquindio.parqueadero to javafx.fxml;
-    exports com.edu.uniquindio.parqueadero;
+    opens com.edu.uniquindio.Main to javafx.fxml;
+    exports com.edu.uniquindio.Main;
+    exports com.edu.uniquindio.Controllers;
+    opens com.edu.uniquindio.Controllers to javafx.fxml;
 }

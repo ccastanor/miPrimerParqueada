@@ -1,4 +1,4 @@
-package com.edu.uniquindio.parqueadero;
+package com.edu.uniquindio.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

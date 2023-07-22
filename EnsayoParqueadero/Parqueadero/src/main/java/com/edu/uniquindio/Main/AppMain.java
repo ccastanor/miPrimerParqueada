@@ -1,4 +1,4 @@
-package com.edu.uniquindio.parqueadero;
+package com.edu.uniquindio.Main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
