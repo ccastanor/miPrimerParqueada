@@ -19,10 +19,145 @@
         <tabs>
           <Tab fx:id="carros" text="Carros">
                <content>
-                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                  <AnchorPane prefHeight="490.0" prefWidth="620.0">
                      <children>
-                        <Label fx:id="P1" layoutX="70.0" layoutY="40.0" text="Label" />
-                        <Button layoutX="212.0" layoutY="269.0" mnemonicParsing="false" onAction="#gg" text="Button" />
+                        <Button fx:id="C1" layoutX="14.0" layoutY="64.0" mnemonicParsing="false" onAction="#C1" prefHeight="38.0" prefWidth="42.0" text="C1">
+                           <font>
+                              <Font size="11.0" />
+                           </font></Button>
+                        <Line endX="376.0" layoutX="100.0" layoutY="52.0" startX="-100.0" />
+                        <Line endX="340.0" layoutX="135.0" layoutY="193.0" rotate="90.0" startX="-100.0" />
+                        <Line endX="376.0" layoutX="100.0" layoutY="413.0" startX="-100.0" />
+                        <Label fx:id="titulo1" layoutX="313.0" layoutY="5.0" prefHeight="39.0" prefWidth="109.0" text="Plazas libres: ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="cantidadC" layoutX="421.0" layoutY="11.0" prefHeight="29.0" prefWidth="28.0" text="24">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="C2" layoutX="74.0" layoutY="64.0" mnemonicParsing="false" onAction="#C2" prefHeight="38.0" prefWidth="42.0" text="C2">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C3" layoutX="138.0" layoutY="64.0" mnemonicParsing="false" onAction="#C3" prefHeight="38.0" prefWidth="42.0" text="C3">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C5" layoutX="14.0" layoutY="125.0" mnemonicParsing="false" onAction="#C5" prefHeight="38.0" prefWidth="42.0" text="C5">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C6" layoutX="74.0" layoutY="125.0" mnemonicParsing="false" onAction="#C6" prefHeight="38.0" prefWidth="42.0" text="C6">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C4" layoutX="196.0" layoutY="64.0" mnemonicParsing="false" onAction="#C4" prefHeight="38.0" prefWidth="42.0" text="C4">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C9" layoutX="14.0" layoutY="181.0" mnemonicParsing="false" onAction="#C9" prefHeight="38.0" prefWidth="42.0" text="C9">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C12" layoutX="196.0" layoutY="181.0" mnemonicParsing="false" onAction="#C12" prefHeight="38.0" prefWidth="42.0" text="C12">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C7" layoutX="138.0" layoutY="125.0" mnemonicParsing="false" onAction="#C7" prefHeight="38.0" prefWidth="42.0" text="C7">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C8" layoutX="196.0" layoutY="125.0" mnemonicParsing="false" onAction="#C8" prefHeight="38.0" prefWidth="42.0" text="C8">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C10" layoutX="74.0" layoutY="181.0" mnemonicParsing="false" onAction="#C10" prefHeight="38.0" prefWidth="42.0" text="C10">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C11" layoutX="138.0" layoutY="181.0" mnemonicParsing="false" onAction="#C11" prefHeight="38.0" prefWidth="42.0" text="C11">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="121.0" layoutY="423.0" prefHeight="53.0" prefWidth="269.0" text="LA TULA PARKIN">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="C22" layoutX="74.0" layoutY="357.0" mnemonicParsing="false" onAction="#C22" prefHeight="38.0" prefWidth="42.0" text="C22">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C18" layoutX="74.0" layoutY="298.0" mnemonicParsing="false" onAction="#C18" prefHeight="38.0" prefWidth="42.0" text="C18">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C14" layoutX="74.0" layoutY="240.0" mnemonicParsing="false" onAction="#C14" prefHeight="38.0" prefWidth="42.0" text="C14">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C21" layoutX="14.0" layoutY="357.0" mnemonicParsing="false" onAction="#C21" prefHeight="38.0" prefWidth="42.0" text="C21">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C17" layoutX="14.0" layoutY="298.0" mnemonicParsing="false" onAction="#C17" prefHeight="38.0" prefWidth="42.0" text="C17">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C13" layoutX="14.0" layoutY="240.0" mnemonicParsing="false" onAction="#C13" prefHeight="38.0" prefWidth="42.0" text="C13">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C16" layoutX="197.0" layoutY="240.0" mnemonicParsing="false" onAction="#C16" prefHeight="38.0" prefWidth="42.0" text="C16">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C23" layoutX="139.0" layoutY="357.0" mnemonicParsing="false" onAction="#C23" prefHeight="38.0" prefWidth="42.0" text="C23">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C15" layoutX="139.0" layoutY="240.0" mnemonicParsing="false" onAction="#C15" prefHeight="38.0" prefWidth="42.0" text="C15">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C20" layoutX="197.0" layoutY="298.0" mnemonicParsing="false" onAction="#C20" prefHeight="38.0" prefWidth="42.0" text="C20">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C24" layoutX="197.0" layoutY="357.0" mnemonicParsing="false" onAction="#C24" prefHeight="38.0" prefWidth="42.0" text="C24">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="C19" layoutX="139.0" layoutY="298.0" mnemonicParsing="false" onAction="#C19" prefHeight="38.0" prefWidth="42.0" text="C19">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Button>
                      </children>
                   </AnchorPane>
                </content>
@@ -33,6 +168,7 @@
                      <children>
                         <Button layoutX="145.0" layoutY="220.0" mnemonicParsing="false" onAction="#g1" prefHeight="105.0" prefWidth="176.0" text="Button" />
                         <Label fx:id="p2" layoutX="157.0" layoutY="61.0" prefHeight="46.0" prefWidth="153.0" text="Label" />
+                        <Line endX="376.0" layoutX="100.0" layoutY="52.0" startX="-100.0" />
                      </children>
                   </AnchorPane>
                </content>
