@@ -7,8 +7,9 @@ import javafx.scene.control.Label;
 
 public class EspacioController {
 
-    //Carros
+    //////////////////////////Carros///////////////////////////////
 
+   //Espacios Carros
     @FXML private Button C1;
     @FXML private Button C2;
     @FXML private Button C3;
@@ -33,9 +34,16 @@ public class EspacioController {
     @FXML private Button C22;
     @FXML private Button C23;
     @FXML private Button C24;
+
+    //Titulos y/u otros
     @FXML private Label cantidadC;
     @FXML private Label titulo1;
     private int plazasC=24;
+
+    //Opciones
+
+
+
 
     //Si el contador de plazas es mayor a 0 entonces dejara aparcar, por el contrario indicara que ya no hay plazas
     public String contadroC () {
@@ -55,12 +63,17 @@ public class EspacioController {
 
     }
 
+    ////////////////////////////////////Opciones//////////////////////////////////////////////////////////
 
 
+
+
+
+    /////////////////////////////////////////////////// MATRIZ /////////////////////////////////////////////////////////
     @FXML public void C1(){
-            System.out.println("Aparcado en C1");
-            cantidadC.setText(contadroC());
-            C1.setDisable(true);
+        System.out.println("Aparcado en C1");
+        cantidadC.setText(contadroC());
+        C1.setDisable(true);
     }
     @FXML public void C2() {
         System.out.println("Aparcado en C2");
@@ -87,7 +100,6 @@ public class EspacioController {
         cantidadC.setText(contadroC());
         C6.setDisable(true);
     }
-
     @FXML public void C7() {
         System.out.println("Aparcado en C7");
         cantidadC.setText(contadroC());
@@ -148,7 +160,6 @@ public class EspacioController {
         cantidadC.setText(contadroC());
         C18.setDisable(true);
     }
-
     @FXML public void C19() {
 
         System.out.println("Aparcado en C19");
@@ -181,16 +192,23 @@ public class EspacioController {
         C24.setDisable(true);
     }
 
+    //////////////////////////Fin Matriz //////////////////////////////////////////////////////////////////
 
 
 
 
 
 
-    ///////////////////////////////////////////////////////////////////////////////////
-    
-    
+
+
+
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     //Motos
+
     @FXML private Label p2;
     @FXML public void g1(){
         p2.setText("Asi es  mano");
