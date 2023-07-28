@@ -64,7 +64,9 @@ public class EspacioController {
     }
 
     ////////////////////////////////////Opciones//////////////////////////////////////////////////////////
-
+    @FXML public void retiroC(){
+        System.out.println("gg");
+    }
 
 
 
