@@ -73,14 +73,20 @@ public class EspacioController {
 
     /////////////////////////////////////////////////// MATRIZ /////////////////////////////////////////////////////////
     @FXML public void C1(){
-        System.out.println("Aparcado en C1");
-        cantidadC.setText(contadroC());
-        C1.setDisable(true);
+
+            System.out.println("Aparcado en C1");
+            cantidadC.setText(contadroC());
+            C1.setStyle("-fx-background-color: red");
+
+
     }
     @FXML public void C2() {
-        System.out.println("Aparcado en C2");
-        cantidadC.setText(contadroC());
-        C2.setDisable(true);
+            System.out.println("Aparcado en C2");
+            cantidadC.setText(contadroC());
+            C1.setStyle("-fx-background-color: red");
+
+
+
     }
     @FXML public void C3() {
         System.out.println("Aparcado en C3");
