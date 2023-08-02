@@ -1,6 +1,8 @@
 package com.edu.uniquindio.Controllers;
 
 import javafx.fxml.FXML;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -67,39 +69,41 @@ public class EspacioController {
     private Label titulo1;
     private int plazasC = 24;
 
-    //Opciones
 
 
-    //Si el contador de plazas es mayor a 0 entonces dejara aparcar, por el contrario indicara que ya no hay plazas
-    public String contadroC() {
-        plazasC = plazasC - 1;
-        String contador;
-        if (plazasC > 0) {
+    public String contadroC(Button a) {
+        String contador = "";
+        if (plazasC > 1) {
+            plazasC = plazasC - 1;
             contador = String.valueOf(plazasC);
-            return contador;
-        } else {
-            C1.setDisable(true);
+        }
+        else {
             cantidadC.setVisible(false);
             contador = "Sin plazas";
             titulo1.setText(contador);
-            return contador;
         }
-
+        return contador;
     }
 
     //Guardado Autos
     public void aparcarC(Button a) {
         //El registro de acciones del ususario son null de defecto y es
         //unico para cada boton, por ende al actualizarlo se vuelve mas facil condicionarlo
-        if (a.getUserData() == null) {
+        if (a.getUserData() == null && a.getText().charAt(0)=='C') {
             a.setUserData(true);
             System.out.println("Aparcado en " + a.getText());
-            cantidadC.setText(contadroC());
+            cantidadC.setText(contadroC(a));
             a.setStyle("-fx-background-color: red");
-        } else {
+        }
+        else if(a.getUserData() == null && a.getText().charAt(0)=='M'){
+            a.setUserData(true);
+            System.out.println("Aparcado en " + a.getText());
+            cantidadC.setText(contadroC(a));
+            a.setStyle("-fx-background-color: red");
+        }
+        else {
             alertaEspacio(a);
         }
-
     }
 
     ////////////////////////////////////Opciones//////////////////////////////////////////////////////////
@@ -231,8 +235,9 @@ public class EspacioController {
 
     //Motos
 
-    @FXML private Label p2;
-    @FXML public void g1(){
-        p2.setText("Asi es  mano");
+    @FXML private Label motos;
+    @FXML private Button M1;
+    @FXML public void M1(){
+        aparcarC(M1);
     }
 }

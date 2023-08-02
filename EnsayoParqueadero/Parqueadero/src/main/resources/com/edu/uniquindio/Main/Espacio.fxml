@@ -14,9 +14,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Button?>
 
-
-
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edu.uniquindio.Controllers.EspacioController">
    <children>
       <TabPane fx:id="contenedor" prefHeight="519.0" prefWidth="476.0" tabClosingPolicy="UNAVAILABLE">
@@ -167,7 +164,7 @@
                               <Image url="@../../../../Imagenes/pp.png" />
                            </image>
                         </ImageView>
-                        <Button layoutX="296.0" layoutY="26.0" mnemonicParsing="false" onAction="#retiroC" prefHeight="52.0" prefWidth="135.0" style="-fx-background-color: #F1948A;" text="Retirar vehiculo" />
+                        <Button fx:id="retiroC" layoutX="296.0" layoutY="26.0" mnemonicParsing="false" onAction="#retiroC" prefHeight="52.0" prefWidth="135.0" style="-fx-background-color: #F1948A;" text="Retirar vehiculo" />
                      </children>
                   </AnchorPane>
                </content>
@@ -176,8 +173,11 @@
                <content>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0">
                      <children>
-                        <Button layoutX="145.0" layoutY="220.0" mnemonicParsing="false" onAction="#g1" prefHeight="105.0" prefWidth="176.0" text="Button" />
-                        <Label fx:id="p2" layoutX="157.0" layoutY="61.0" prefHeight="46.0" prefWidth="153.0" text="Label" />
+                        <Button fx:id="M1" layoutX="225.0" layoutY="137.0" mnemonicParsing="false" onAction="#M1" prefHeight="36.0" prefWidth="42.0" style="-fx-background-color: #5499C7;" text="M1" textFill="WHITE" />
+                        <Label fx:id="motos" layoutX="149.0" layoutY="10.0" prefHeight="36.0" prefWidth="194.0" text="Maske Meltrolso" wrapText="true">
+                           <font>
+                              <Font size="25.0" />
+                           </font></Label>
                         <Line endX="376.0" layoutX="100.0" layoutY="52.0" startX="-100.0" />
                      </children>
                   </AnchorPane>
